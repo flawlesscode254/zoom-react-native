@@ -1,11 +1,11 @@
 import React from 'react'
 import { View } from 'react-native'
 
-import Header from './components/Header'
-import SearchBar from './components/SearchBar'
-import Buttons from './components/Buttons'
+import Header from '../components/Header'
+import SearchBar from '../components/SearchBar'
+import Buttons from '../components/Buttons'
 
-const Home = () => {
+const Meet = () => {
     return (
         <View>
             <Header />
@@ -15,4 +15,5 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Meet
+
